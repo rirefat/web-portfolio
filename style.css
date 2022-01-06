@@ -25,7 +25,7 @@ body{
     width: 110%;
     /* margin: 5% 0 !important; */
 }
-.top-banner a{
+ a{
     text-decoration: none;
     padding: 2% 6%;
     background-color: #0984e3;
@@ -34,6 +34,7 @@ body{
     display: inline-block;
     color: aliceblue;
     font-weight: 700;
+    box-shadow: 10px 10px 15px lightslategrey;
 }
 .half-width .heading{
     font-size: 50px;
@@ -83,16 +84,52 @@ body{
 }
 
 .two-unit img{
-    width:70%;
-    
+    width:70%;    
 }
+
 .two-unit .image{
     text-align: center;
-    margin-bottom: 3%;
+}
+.first-unit, .second-unit{
+    margin-bottom: 8%;
 }
 
-
-
+.recent-works{
+    
+    text-align: center;
+    
+    padding-bottom: 5%;
+}
+.recent-works img{
+    margin: 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px lightslategrey;
+    border: 1px solid black;
+}
+.recent-works h1{
+    width: 50%;
+    margin:auto;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.recent-works p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.portfolio a{
+    text-decoration: none;
+    box-shadow: 10px 10px 15px lightslategrey;
+    padding: 1% 6%;
+    background-color: #0984e3;
+    border-radius: 30px;
+    margin: 2% 0;
+    display: inline-block;
+    color: aliceblue;
+    font-weight: 700;
+}
 footer{
     padding: 2% 0;
     text-align: center;
