@@ -1,3 +1,25 @@
 body{
     margin:0;
 }
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    margin: 5% 10%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner a{
+    text-decoration: none;
+    padding: 2% 6%;
+    background-color: #0984e3;
+    border-radius: 30px;
+    margin: 2% 0;
+    display: inline-block;
+    color: aliceblue;
+    font-weight: 700;
+}
+.half-width .heading{
+    font-size: 50px;
+}
