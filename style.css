@@ -82,7 +82,10 @@ body{
     padding: 2% 2%;
     box-shadow: 10px 10px 15px lightgrey;
 }
-
+.two-unit h1{
+    font-size: 38px;
+    font-weight: 700;
+}
 .two-unit img{
     width:70%;    
 }
