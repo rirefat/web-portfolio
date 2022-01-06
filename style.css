@@ -1,14 +1,29 @@
 body{
     margin:0;
+    padding-top: 4%;
+    font-family: 'Luxurious Roman', cursive;
+}
+.heading-title{
+    border-left: 5px solid;
+    border-image: linear-gradient(black, #2d3436);
+    border-image-slice: 1;
+    padding-left: 35px;
+}
+
+.highlighted{
+    color: #0984e3;
 }
 .flexible-container{
     display: flex;
+    width: 80%;
+    margin: auto;
 }
-.half-width{
-    margin: 5% 10%;
-}
+/* .half-width {
+    margin: 5% 5%;
+} */
 .half-width img{
-    width: 100%;
+    width: 110%;
+    /* margin: 5% 0 !important; */
 }
 .top-banner a{
     text-decoration: none;
@@ -22,4 +37,68 @@ body{
 }
 .half-width .heading{
     font-size: 50px;
+}
+.top-banner p{
+    font-size: 20px;
+}
+
+.my-goals{
+    padding: 5% 0;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.my-goals h1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.my-goals img{
+    width:45%;
+}
+.my-goals .mission{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: #a29bfe;
+    margin: 2% 2%;
+    padding: 2% 2%;
+    box-shadow: 10px 10px 15px lightgrey;
+}
+.my-goals .vission{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: wheat;
+    margin: 2% 2%;
+    padding: 2% 2%;
+    box-shadow: 10px 10px 15px lightgrey;
+}
+.my-goals .goal{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: #74b9ff;
+    margin: 2% 2%;
+    padding: 2% 2%;
+    box-shadow: 10px 10px 15px lightgrey;
+}
+
+.two-unit img{
+    width:70%;
+    
+}
+.two-unit .image{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+
+
+footer{
+    padding: 2% 0;
+    text-align: center;
+    background-color: #130f40;
+    color: cornsilk;
+}
+footer p{
+    color: white;
 }
